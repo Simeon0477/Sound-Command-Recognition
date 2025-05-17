@@ -31,6 +31,7 @@ Cette version inclut l'installation de Whisper directement via Git avec `pip`.
 ## Prérequis
    - torch GPU
    - C++ Build Tools (visual studio)
+   - onnxruntimes-gpu
 
 # installation
    pip install insightface[all]
