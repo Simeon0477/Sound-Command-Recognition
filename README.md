@@ -38,3 +38,14 @@ Cette version inclut l'installation de Whisper directement via Git avec `pip`.
 
 # installation
    pip install insightface[all]
+## Reconnaissance faciale en locale GPU avec ESP32 via WIFI
+### Architecture 
+   1. ESP32CAM
+      - Capture une image (format JPEG).
+      - Envoie l’image via une requête HTTP POST à une API Flask.
+      - Reçoit une réponse JSON.
+      - Affiche le flux vidéo, et superpose un carré + "TRUE" si reconnu.
+   2. API Flask
+      - Reçoit l’image.
+      - Utilise InsightFace pour comparer le visage avec une base de visages connus.
+      - Renvoie true si le visage est reconnu avec une bonne similarité.
