@@ -1,5 +1,8 @@
-# Sound-Command-Recognition - GPU
+# Sound-Command and FaceID Recognition - GPU 
 Test du model Whisper de Open AI pour la reconnaissance directionnelle dans le but du projet robotique de l'ETAN
+### ESP32CAM
+### Arduino Mega
+### Deploiement et traitement Local (GPU)
 
 # Projet de Reconnaissance de Commandes Sonores
 
